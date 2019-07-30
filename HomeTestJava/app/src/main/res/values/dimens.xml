@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">5dp</dimen>
+
+    <dimen name="space5">5dp</dimen>
+    <dimen name="space10">10dp</dimen>
+    <dimen name="space20">20dp</dimen>
+    <dimen name="space30">30dp</dimen>
+    <dimen name="space40">40dp</dimen>
+    <dimen name="space50">50dp</dimen>
+    <dimen name="space70">70dp</dimen>
+    <dimen name="space100">100dp</dimen>
+    <dimen name="space120">120dp</dimen>
+    <dimen name="space150">150dp</dimen>
+    <dimen name="space200">200dp</dimen>
+
+</resources>

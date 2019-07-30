@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HomeTestJava</string>
+    <string name="search_text">Bạn tìm gì hôm nay...</string>
+    <string name="promo_text">Đăng nhập để trải nghiệm tốt nhất</string>
+    <string name="signin_text">Đăng nhập</string>
+    <string name="signup_text">Đăng ký</string>
+    <string name="tiki_deal_title">Tiki deal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
