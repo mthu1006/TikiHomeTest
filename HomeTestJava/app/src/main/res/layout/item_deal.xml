@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/img_deal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/space70"
+        android:layout_height="@dimen/space70"
         android:layout_centerHorizontal="true"
         android:background="@android:color/transparent"
         android:focusable="true"
@@ -25,9 +25,10 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/space5"
-        android:maxLines="2"
         android:ellipsize="end"
-        android:text="ABC"
+        android:minLines="2"
+        android:maxLines="2"
+        android:text="ABCABCABCABCABCABC"
         android:textAlignment="viewStart"
         android:textColor="@color/darkGray"
         android:textSize="14sp" />

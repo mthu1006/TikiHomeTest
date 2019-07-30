@@ -54,7 +54,7 @@ public class DealAdapter extends RecyclerView.Adapter<DealAdapter.MyViewHolder> 
     public void onBindViewHolder(final MyViewHolder holder, final int position) {
         Deal deal = list.get(position);
         holder.name.setText(deal.getName());
-        holder.price.setText(AppUtils.addDotToNumber(deal.getPrice()));
+        holder.price.setText(AppUtils.addDotToNumber(deal.getPrice()) + " đ");
         if(!Validation.checkNullOrEmpty(deal.getImg()))
             Glide.with(context).load(deal.getImg()).apply(new RequestOptions().placeholder(R.drawable.ic_launcher_foreground).error(R.drawable.ic_launcher_foreground))
                     .into(holder.img);
